@@ -1,3 +1,9 @@
+---
+marp: true
+theme: gaia
+
+---
+
 # ex-linux-01
 
 ## Manuell oppdatering
@@ -30,11 +36,12 @@ adduser {username}
 ```shell
 usermod -aG sudo {username}
 ```
+
 Merk at parametrene i kommandoene (-a og -G i dette tilfellet) ofte har en logisk betydning
 >-a `add`
 >-G `group`
 
-Vi ønsker altså å modifisere (endre) en bruker med argumentene "add" og "group". 
+Vi ønsker altså å modifisere (endre) en bruker med argumentene "add" og "group".
 
 Slike mønstre går igjen hele tiden
 
